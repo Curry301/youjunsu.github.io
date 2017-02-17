@@ -114,7 +114,7 @@ $('form .login').click(function () {
                 data: $('form').serialize(),
                 success: function (data) {
                     if (data.resultCode == 0000) {
-                          location.href = '首页-01.html'
+                          location.href = 'index.html'
 
                     }
                 }

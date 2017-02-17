@@ -68,7 +68,7 @@ $.ajax({
         if (data.success) {
             $('#log-box a').eq(0).html('欢迎' + data.data[0].lname).attr('href', '个人中心-02.html');
             $('#log-box a').eq(1).html('退出').attr({
-                'href': '首页-01.html',
+                'href': 'index.html',
                 'onclick': 'quitLogin()'
             })
         }
@@ -81,7 +81,7 @@ function quitLogin() {
         dataType: 'jsonp',
         success: function (data) {
             if (data.resultCode=='0000') {
-                location.href = '首页-01.html';
+                location.href = 'index.html';
                 $('#log-box a').eq(0).html('欢迎').attr('href', '登录-06.html');
                 $('#log-box a').eq(1).html('退出').attr('href', '注册-07.html').removeAttr('onclick')
             }
