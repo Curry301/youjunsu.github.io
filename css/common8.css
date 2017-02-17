@@ -1,0 +1,256 @@
+#head{
+    margin:0 auto;
+    height:654px;
+    background:url("../img/login-bgimg.jpg") no-repeat center;
+    min-width: 1260px;
+}
+#nav{
+    width: 1150px;
+    height:654px;
+    margin:0 auto;
+    color: #FFFFFF;
+}
+.logo{
+    width:166px;
+    height: 44px;
+    background: url("../img/sprite2.png");
+    margin-top: 20px;
+    float: left;
+}
+.head-span{
+    display: inline-block;
+    width: 0;
+    height: 50px;
+    border-left: 1px solid #bbb;
+    margin:20px 16px ;
+}
+.head-span2{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 500;
+    color: #555;
+    margin-top: 5px;
+    vertical-align: text-top;
+}
+.center-tit{
+    width: 514px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #eee;
+    margin:0 auto;
+}
+.center-tit h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    padding:20px 217px;
+}
+.input-box2{
+    width: 269px;
+    height:39px;
+    /*line-height: 39px;*/
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.room-input{
+    float: left;
+    display: inline-block;
+    width: 210px;
+    margin-top: 9px;
+    border:none;
+    outline: none;
+    margin-left: 10px;
+}
+.user-box{
+    font-size:13px;
+    color: #555;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.user-tit{
+    width: 102px;
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+}
+.user-tit i{
+    color: #ec6d24;
+}
+.ico{
+    width: 20px;
+    height: 20px;
+    background: url("../img/sprite2.png");
+    float: right;
+    margin-right:10px;
+    margin-top:9px;
+}
+.use-ico{
+    background-position: -32px -55px;
+}
+.psd-ico{
+    background-position: -6px -55px;
+}
+.yzm-box{
+    width: 118px;
+    height:39px;
+    /*line-height: 39px;*/
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.yzm-input{
+    float: left;
+    display: inline-block;
+    width: 108px;
+    margin-top: 9px;
+    border:none;
+    outline: none;
+    margin-left: 10px;
+}
+.yzm{
+    display: inline-block;
+    width: 100px;
+    line-height: 36px;
+    color: #fff;
+    background-color: #b0b0b0;
+    vertical-align: middle;
+    text-align: center;
+}
+.tk-box{
+    width: 269px;
+    line-height: 12px;
+    color: #999;
+    margin-left: 167px;
+}
+.agreen{
+    display: inline-block;
+    width: 12px;
+    height: 13px;
+    background: url("../img/sprite2.png");
+    background-position: -129px -58px;
+    vertical-align: top;
+    margin-right: 5px;
+}
+.xy{
+    color: #70ad46;
+    margin-left: -3px;
+}
+.zc{
+    margin-left: 52px;
+    color: #70ad46;
+
+}
+.login{
+    display: block;
+    width: 269px;
+    line-height: 40px;
+    background-color: #70ad46;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+    margin-left: 165px;
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+.line-box,.web-box{
+    width: 376px;
+    margin:0 auto;
+}
+.line {
+    display: inline-block;
+    width: 110px;
+    height: 0;
+    border-top:1px dashed #ccc ;
+    margin-bottom: 4px;
+}
+.web-box{
+margin-top: 15px;
+}
+.QQ,.weibo,.weixin{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url("../img/sprite2.png");
+}
+.QQ{
+    background-position: -2px -87px;
+    margin-left: 45px;
+}
+.weibo{
+    background-position: -2px -159px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.weixin{
+    background-position: -3px -230px;
+}
+.foot{
+    /*height: 162px;950  262*/
+    background-color: #242623;
+    min-width: 1260px;
+    width:100%;
+    height: 262px;
+}
+.foot-area{
+    width: 1150px;
+    margin:0 auto;
+    position: relative;
+}
+.f-link{
+    width: 825px;
+    /*float: left;*/
+    display: inline-block;
+    margin-top: 43px;
+}
+.f-link ul li{
+    float: left;
+    margin: 5px;
+    font-size: 12px;
+    color: #cccccc;
+}
+.f-link ul li a{
+    color: #cccccc;
+}
+.f-link ul li a:hover{
+    color: #fff;
+}
+.Tweima{
+    width: 202px;
+    height: 195px;
+    position: absolute;
+    top:57px;
+    right: -57px;
+}
+.T-img{
+    width: 158px;
+    height: 158px;
+    background: url("../img/sprite.png");
+    background-position: -195px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

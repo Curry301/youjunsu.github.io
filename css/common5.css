@@ -1,0 +1,389 @@
+.head-box{
+    width: 1150px;
+    height: 56px;
+    margin:0 auto;
+}
+.head{
+    width: 100%;
+    height: 56px;
+    background-color: #75a749;
+    min-width: 1260px;
+}
+
+.logo{
+    width:152px;
+    height: 56px;
+    float: left;
+    background: url("../img/sprite.png");
+    background-position: 0px 2px;
+    /*padding:11px 0;*/
+    /*float: left;*/
+}
+#log-box{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    font-family: "微软雅黑";
+    float: right;
+    line-height: 56px;
+}
+#log-in,#regin{
+    color: #fff;
+}
+#search-box{
+    display: inline-block;
+    width: 644px;
+    height: 36px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin: 9px 100px;
+    position: relative;
+}
+#area{
+    width: 60px;
+    height: 30px;
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+}
+.city-box{
+    background-color: #FFFFFF;
+    width: 320px;
+    height: 115px;
+    border-radius: 7px;
+    border: 1px solid #cccccc;
+    position: absolute;
+    top:35px;
+    left: 0px;
+    /*z-index: 1;*/
+    display: none;
+}
+.city-box li{
+    display: inline-block;
+    color: #666666;
+    margin: 10px 13px;
+}
+.aa{
+    position: absolute;
+}
+.city-box li span{
+    display: inline-block;
+    width: 65px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 3px;
+    margin: 8px 15px;
+    border: 1px solid #cccccc;
+}
+.city-box li a{
+}
+
+.xioasanjiao{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 4px solid rgba(153,153,153,0);
+    border-right: 4px solid rgba(153,153,153,0);
+    border-top: 5px solid rgba(153,153,153,1);
+    position: absolute;
+    top:17px;
+    left: 51px;
+
+}
+.search-text{
+    display: inline-block;
+    border: none;
+    color: #848484;
+    width: 400px;
+    height: 32px;
+    font-size: 16px;
+}
+#search-right{
+    width: 124px;
+    height: 36px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #618b3b;
+    float: right;
+    position: relative;
+}
+#fangdajing{
+    width:28px;
+    height:28px;
+    display: inline-block;
+    background: url("../img/sprite.png") no-repeat;
+    background-position: -163px 0px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.soufangyuan{
+    position: absolute;
+    top: 3px;
+    left: 50px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+.main{
+    width: 100%;
+}
+.main-box{
+    width: 1150px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+.nav-tit-top{
+    height:33px;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+}
+.nav-tit{
+    width: 1150px;
+    line-height: 33px;
+    margin:0 auto;
+}
+.xq-img-left{
+    width:455px;
+    height:429px;
+    display: inline-block;
+    float: left;
+}
+.xq-img-ba{
+    width: 455px;
+    height:341px;
+}
+.xq-little{
+    display: inline-block;
+}
+.xq-little-list{
+    width: 106px;
+    height: 78px;
+    display: inline-block;
+}
+.xq-little-list img{
+    display: inline-block;
+    width: 106px;
+    height: 78px;
+}
+.list{
+    margin: 0 5px;
+}
+.xq-img-right{
+    width: 676px;
+    height:429px;
+    display: inline-block;
+}
+.xq-text{
+    width: 676px;
+    height:429px;
+    margin-left: 20px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.xq-text h1{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.sp{
+    margin:20px 0 0px 0px;
+}
+.tel{
+    display: inline-block;
+    width: 296px;
+    height: 70px;
+    border-radius: 7px;
+    background-color: #75a749;
+    position: relative;
+    margin-top: 35px;
+}
+.tel span{
+    font-size: 18px;line-height: 70px;position: absolute;top: 0px;left: 70px;color:#FFFFFF
+}
+.tel i{
+    font-size: 18px;line-height: 70px;position: absolute;top: 0px;left: 200px;color:#FFFFFF
+}
+.tel-ico{
+    width: 43px;
+    height: 43px;
+    display: inline-block;
+    background: url("../img/sprite.png");
+    background-position: 646px 1px;
+    position: absolute;
+    top:15px;
+    left: 15px;
+}
+.collection-box{
+    width: 296px;
+    height: 70px;
+    display: inline-block;
+    line-height: 43px;
+    position: relative;
+
+}
+.collection{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url("../img/sprite.png");
+    background-position: 590px 0px;
+    position: absolute;
+    top: 24px;
+    left: 30px;
+}
+.share{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url("../img/sprite.png");
+    background-position: 560px 0px;
+    position: absolute;
+    top: 24px;
+    left: 120px;
+}
+.xq-tit{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 19px;
+    margin-bottom: 13px;
+}
+.line{
+    width: 1150px;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 18px;
+}
+#map{
+    width: 1150px;
+    height: 416px;
+    border: 1px solid #ccc;
+    overflow: hidden
+}
+.jiaju{
+    width: 1150px;height: 18px;
+    position: relative;
+
+}
+.jiaju-list{
+    width: 83px;
+    height: 18px;
+    display: inline-block;
+    position: relative;
+}
+.jiaju-icon{
+    width: 28px;
+    height: 18px;
+    display: inline-block;
+    background: url("../img/sprite.png");
+    margin-right: 30px;
+}
+.bed{
+    background-position: 535px -4px;
+}
+.jiaju-text{
+    margin-left: 28px;
+    font-size: 14px;
+    line-height: 18px;
+    position: absolute;
+    top: 0px;
+    left: 2px;
+}
+.yigui{
+    background-position: 510px -4px;
+}
+.xq-map{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 13px;
+}
+.you-like{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 13px;
+}
+.you-like-box{
+    width: 1150px;
+    padding:4px 20px 30px 20px;
+}
+.you-like-img{
+    width: 265px;
+    height: 284px;
+    display: inline-block;
+}
+.like-img1{
+    background: url("../img/guess-youl-ike1.png");
+}
+.like-img2{
+    background: url("../img/guess-youl-ike2.png");
+}
+.like-img3{
+    background: url("../img/guess-youl-like3.png");
+}
+.like-img4{
+    background: url("../img/guess-youl-ike4.png");
+}
+.you-like-img2{
+    margin-left: 18px;
+}
+.like-img{
+    display: inline-block;
+    width: 265px;
+    height:193px;
+    /*background: url("../img/guess-youl-ike1.png");*/
+}
+.map-ico{
+    width: 15px;
+    height: 17px;
+    background: url("../img/sprite.png");
+    background-position: 85px -4px;
+    display: inline-block;
+}
+
+
+.foot{
+    /*height: 162px;950  262*/
+    background-color: #242623;
+    margin-top: 60px;
+    min-width: 1260px;
+    width:100%;
+    height: 262px;
+}
+.foot-area{
+    width: 1150px;
+    margin:0 auto;
+    position: relative;
+}
+.f-link{
+    width: 825px;
+    /*float: left;*/
+    display: inline-block;
+    margin-top: 43px;
+    color: #cccccc;
+}
+.f-link ul li{
+    float: left;
+    margin: 5px;
+    font-size: 12px;
+}
+.f-link ul li a{
+    color: #cccccc;
+}
+.f-link ul li a:hover{
+    color: #fff;
+}
+.Tweima{
+    width: 202px;
+    height: 195px;
+    position: absolute;
+    top:57px;
+    right: -57px;
+}
+.T-img{
+    width: 158px;
+    height: 158px;
+    background: url("../img/sprite.png");
+    background-position: -195px 0px;
+}
